@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
     <title>Frontend Mentor | QR code component</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
@@ -27,7 +27,7 @@ body{
     margin: 1rem auto;
     background-color: white;
     border-radius: 10px;
-    width: 150px;
+    max-width: 330px;
     height: auto;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -38,7 +38,7 @@ body{
 }
 .qr-code img{
     width: 100%;
-    max-width: 150px;
+    max-width: 330px;
     border-radius: 10px;
 }
 
@@ -68,58 +68,12 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
-
-@media screen  and (max-width : 600px){
-    .card{
-    
-        margin: 0 auto;
-        background-color: white;
-        border-radius: 10px;
-        width: 330px;
-        height: auto;
-        text-align: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .qr-code{
-        margin: 10px;
-        margin-bottom: 0;
-    }
-    .qr-code img{
-        width: 100%;
-        max-width: 330px;
-        border-radius: 10px;
-    }
-    .content{
-        padding: 20px ;
-        width: 100%;
-    }
-    .p1{
-        margin-bottom: 12px;
-        font-size: 25px;
-        font-weight: 700;
-        color: hsl(218, 44%, 22%);
-    }
-    .p2 {
-        font-size: 18px;
-        font-weight: 400;
-        color:  hsl(216, 15%, 48%);
-    }
-    .attribution {
-        margin-top: 1rem;
-        font-size: 10px; 
-        text-align :center;
-     }
-    
-    .attribution a {
-        color: hsl(228, 45%, 44%); 
-    }
-}
     </style>
 </head>
 <body>
     <div class="card">
         <div class="qr-code">
-            <img src="/image-qr-code.png" alt="QR code" >
+            <img src="./image-qr-code.png" alt="QR code" >
         </div>
         <div class="content">
          <p class="p1">Improve your front-end skills by building projects<p>
